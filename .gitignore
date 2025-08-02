@@ -1,0 +1,19 @@
+# .gitignore
+
+# Arquivos de ambiente e segredos
+.env
+*.env
+
+# Pastas de ambiente virtual
+venv/
+.venv/
+
+# Pastas de cache e temporárias do Python
+__pycache__/
+*.pyc
+*.log
+.pytest_cache/
+.mypy_cache/
+
+# Arquivos do PyCharm
+.idea/
